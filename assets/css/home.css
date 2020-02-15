@@ -9,7 +9,7 @@ body {
 
 .container {
   padding-top: 120px;
-  margin-bottom: 10px;
+  margin-bottom: 20%;
 }
 
 .image {
@@ -35,11 +35,13 @@ body {
 .footer {
   position: fixed;
   left: 0;
+  margin-top: 10vw;
   bottom: 0;
   width: 100%;
   background-color: black;
   color: white;
   text-align: center;
+
 }
 
 /* Media Screen Sizing */
