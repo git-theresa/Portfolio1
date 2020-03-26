@@ -1,5 +1,6 @@
 body {
-    background-color: whitesmoke;
+    background-color: black;
+    color: whitesmoke;
 }
 
 .navbar {
@@ -12,7 +13,10 @@ body {
   margin-bottom: 20%;
   text-align: center;
 }
-
+#homePageCard{
+  background-color: black;
+  color: whitesmoke;
+}
 
 
 
