@@ -55,7 +55,7 @@ body {
 
 @media screen and (max-width: 991.98px) {
   body {
-    background-color: whitesmoke;
+    background-color: black;
   }
 }
   .wrapper {
@@ -64,7 +64,7 @@ body {
 
 @media screen and (max-width: 970px) {
     body {
-      background-color: whitesmoke;
+      background-color: black;
 }
 }
       /* The wrapper's width will be 600px */
@@ -83,7 +83,7 @@ body {
 
 @media screen and (max-width: 575.98px) { 
   body { 
-    background-color: whitesmoke;
+    background-color: black;
   }
 }
   .wrapper {
