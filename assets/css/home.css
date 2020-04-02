@@ -1,12 +1,11 @@
 body {
-    background-color: black;
-    color: whitesmoke;
+  background-color: black;
+  color: whitesmoke;
 }
 
 .navbar {
   font-style: color= whitesmoke;
   flex-direction: flex-end;
- 
 }
 
 .container {
@@ -14,12 +13,10 @@ body {
   margin-bottom: 20%;
   text-align: center;
 }
-#homePageCard{
+#homePageCard {
   background-color: black;
   color: whitesmoke;
 }
-
-
 
 .image {
   max-width: 80%;
@@ -40,7 +37,6 @@ body {
   text-align: center;
 }
 
-
 .footer {
   position: fixed;
   left: 0;
@@ -59,37 +55,34 @@ body {
     background-color: black;
   }
 }
-  .wrapper {
+.wrapper {
   width: 625px;
-  }
+}
 
 @media screen and (max-width: 970px) {
-    body {
-      background-color: black;
+  body {
+    background-color: black;
+  }
 }
+/* The wrapper's width will be 600px */
+.wrapper {
+  width: 600px;
 }
-      /* The wrapper's width will be 600px */
-    .wrapper {
-      width: 600px;
-    }
 
 @media screen and (max-width: 767.98px) {
   body {
     background-color: whitesmoke;
   }
 }
-  .wrapper {
-    width: 500px;
-  }
+.wrapper {
+  width: 500px;
+}
 
-@media screen and (max-width: 575.98px) { 
-  body { 
+@media screen and (max-width: 575.98px) {
+  body {
     background-color: black;
   }
 }
-  .wrapper {
+.wrapper {
   width: 250px;
-  }
-
-
-
+}
