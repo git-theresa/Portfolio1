@@ -1,6 +1,6 @@
 # Theresa's Portfolio
 # Live Link 
-https://git-theresa.github.io/Portfolio/
+https://git-theresa.github.io/Portfolio1/
 # Contributor
 @git-theresa
 # Tecnology Stack
@@ -13,5 +13,5 @@ This is my Portfolio Site. This page is the bones of my own personal website, wh
 MIT
 # Contact
 * Name: Theresa Eatherly [@git-theresa](@git-theresa)
-* Webpage: https://git-theresa.github.io/Portfolio/
+* Webpage: https://git-theresa.github.io/Portfolio1
 * e-mail: [t.eatherly@gmail.com](t.eatherly@gmail.com)
