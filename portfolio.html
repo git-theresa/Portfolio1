@@ -1,120 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="assets/css/home.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" type="text/css" href="assets/css/home.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
 
     <title>Portfolio</title>
-</head>
+  </head>
 
-<body>
-
-
-
+  <body>
     <!-- Begin NavBar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#portfolio">Theresa Eatherly</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span></button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-                <a class="nav-item nav-link active" href="portfolio.html"
-                    style="flex-direction: row-reverse;">Portfolio<span class="sr-only">(current)</span></a>
-                <a class="nav-item nav-link" href="contact.html">Contact</a>
-                <a class="nav-item nav-link" href="index.html">About</a>
-            </div>
+      <a class="navbar-brand" href="#portfolio">Theresa Eatherly</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a
+            class="nav-item nav-link active"
+            href="portfolio.html"
+            style="flex-direction: row-reverse;"
+            >Portfolio<span class="sr-only">(current)</span></a
+          >
+          <a class="nav-item nav-link" href="contact.html">Contact</a>
+          <a class="nav-item nav-link" href="index.html">About</a>
         </div>
+      </div>
     </nav>
-
     <!-- End NavBar -->
-
+    
     <div class="container">
-        <!-- Begin Column 1 / Row 1 -->
-        <div class="row">
-            <div class="col-md">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <div class="card">
-                            <img alt="Card image cap" class="card-img-top img-fluid" src="assets/images/clouds.png"
-                                alt="white clouds on black background">
-                            <div class="card">
-                                <a href="https://git-theresa.github.io/WeatherDashboard/" class="btn btn-primary">Local
-                                    Weather</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-            <div class="col-sm">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <div class="placeholder">
-                            <img src="assets/images/QJamz.png" alt="black logo with text" class="img-thumbnail"
-                                image="center">
-                            <div class="card">
-                                <a href="https://git-theresa.github.io/Project/" class="btn btn-primary">Q. Jamz</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>    
-            <div class="row">
-                <div class="col-md">
-                    <div class="card" style="width: 18rem;">
-                        <div class="card-body">
-                            <div class="card">
-                                <img alt="Card image cap" class="card-img-top img-fluid" src="assets/images/chess.png"
-                                    alt="chess board">
-                                <div class="card">
-                                    <a href="https://sticklersparadise.herokuapp.com/" class="btn btn-primary">Stickler's Paradise</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            <div class="col-md">
-                <div class="card" style="width: 18rem;">
-                    <div class="card-body">
-                        <div class="placeholder">
-                            <img src="assets/images/clocks.png" alt="group of clocks" class="img-thumbnail"
-                                image="center">
-                            <div class="card">
-                                <a href="https://git-theresa.github.io/DailyPlanner" class="btn btn-primary">Daily
-                                    Planner</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--End Row  -->
+       <div class="card-group">
+        <div class="card">
+          <img
+            alt="Card image cap"
+            class="card-img-top img-fluid"
+            src="assets/images/chess.png"
+          />
+          <div class="card-body">
+            <a
+              href="https://sticklersparadise.herokuapp.com/"
+              class="btn btn-primary"
+              >Stickler's Paradise</a
+            >
+          </div>
         </div>
-        <!-- Footer -->
-        <div class="footer">
-            <h6>Created By @git-Theresa</h6>
+        <div class="card">
+          <img
+            src="assets/images/clocks.png"
+            alt="group of clocks"
+            class="img-thumbnail"
+            image="center"
+          />
+          <div class="card-body">
+            <a
+              href="https://git-theresa.github.io/DailyPlanner"
+              class="btn btn-primary"
+              >Daily Planner</a
+            >
+          </div>
         </div>
 
+        <div class="card">
+          <img
+            src="assets/images/QJamz.png"
+            alt="black logo with text"
+            class="img-thumbnail"
+            image="center"
+          />
+          <div class="card-body">
+            <a
+              href="https://git-theresa.github.io/Project/"
+              class="btn btn-primary"
+              >Q. Jamz</a
+            >
+          </div>
+        </div>
+        <!-- End Card Deck -->
+        <!-- </div> -->
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+        <div class="card-group">
+          <div class="card">
+            <img
+              alt="Card image cap"
+              class="card-img-top img-fluid"
+              src="assets/images/clouds.png"
+              alt="white clouds on black background"
+            />
+            <div class="card-body">
+              <a
+                href="https://git-theresa.github.io/WeatherDashboard/"
+                class="btn btn-primary"
+                >Local Weather</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              alt="Card image cap"
+              class="card-img-top img-fluid"
+              src="assets/images/genScreenShot.png"
+              alt="screen shot of app"
+            />
+            <div class="card-body">
+              <a
+                href="https://github.com/git-theresa/GenerateRM/blob/master/genREADME.md"
+                class="btn btn-primary"
+                >Generate ReadMe</a
+              >
+            </div>
+          </div>
+          <div class="card">
+            <img
+              src="assets/images/employee.gif"
+              alt="black logo with text"
+              class="img-thumbnail"
+              image="center"
+            />
+            <div class="card-body">
+              <a
+                href="https://github.com/git-theresa/EmployeeTracker"
+                class="btn btn-primary"
+                >Employee Tracker</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
 
-</body>
+      <!--End Row  -->
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <h6>Created By @git-Theresa</h6>
+    </div>
 
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
