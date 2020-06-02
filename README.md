@@ -19,7 +19,7 @@
  
  
 
- <img src= "public/assets/images/portfolio1.png" alt="screenshot" />
+ <img src= "assets/images/portfolio1.png" alt="screenshot" />
  
  
   ## **Technology Stack**
