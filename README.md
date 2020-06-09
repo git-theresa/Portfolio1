@@ -32,4 +32,4 @@
 #### **Contact**
 * :computer:  GitHub: [https://github.com/git-theresa](https://github.com/git-theresa) 
 * :e-mail:  Email: [t.eatherly@gmail.com](t.eatherly@gmail.com)
-* :earth_americas:  LinkedIn: [https://www.linkedin.com/in/theresa-eatherly-4362b14a/](https://www.linkedin.com/in/theresa-eatherly-4362b14a/)
+* :earth_americas:  LinkedIn: [https://www.linkedin.com/in/theresa-eatherly-4362b14a/](https://www.linkedin.com/in/theresa-eatherly-4362b14a/)git 
