@@ -1,6 +1,7 @@
 body {
   background-color: black;
   color: whitesmoke;
+  background-image: url("assets/imgages/me.png");
 }
 
 .navbar {
